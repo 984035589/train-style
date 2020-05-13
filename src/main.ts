@@ -7,6 +7,7 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 // 解决页面刷新滚动条样式问题
 import '@/assets/styles/base/reset.scss';
+import '@/assets/fonts/iconfont.css';
 
 import VueTsCss from 'vue-css-ts';
 

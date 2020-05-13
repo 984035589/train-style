@@ -1,14 +1,10 @@
 import { Vue, Component } from 'vue-property-decorator';
 import HomeStyle from './home.module.scss';
 import HomeHtml from './home.html';
-import Draggable from 'vuedraggable';
 
 @Component({
   template: HomeHtml,
-  style: HomeStyle,
-  components: {
-    Draggable
-  }
+  style: HomeStyle
 })
 export class HomeComponent extends Vue {
   activeIndex: string = '1';

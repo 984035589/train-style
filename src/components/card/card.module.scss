@@ -1,0 +1,84 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: -webkit-fill-available;
+  padding-top: 8%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: -webkit-linear-gradient(
+    left bottom,
+    rgb(121, 150, 137),
+    rgb(55, 68, 110)
+  );
+  .card-img {
+    text-align: center;
+    img {
+      width: 500px;
+      border-radius: 8px 8px 0 0;
+    }
+  }
+  .card-wrapper {
+    width: 500px;
+    background: #ffffff;
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+  }
+  .card-title {
+    padding: 8% 0 0 0;
+  }
+  .card-description {
+    padding: 12px 0 3% 0;
+    font-size: 20px;
+    color: rgb(79, 92, 99);
+  }
+
+  .card-wrapper hr {
+    background-color: rgb(179, 192, 199);
+    margin: 0px 50px;
+  }
+
+  .card-wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-wrapper li {
+    display: inline-block;
+    border: 1px solid #4f5c63;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 0px 5px;
+    height: 35px;
+    width: 35px;
+    line-height: 33.6px;
+  }
+
+  .card-list {
+    padding: 22px 0 32px 0;
+  }
+
+  ul li:hover {
+    border-color: rgb(179, 192, 199);
+  }
+  ul li:hover i {
+    color: rgb(179, 192, 199);
+  }
+  ul li i {
+    font-size: 20px;
+    color: rgb(79, 92, 99);
+    transition: 0.2s;
+  }
+
+  @keyframes cardContainerLoad {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 10%, 0);
+    }
+    to {
+      opacity: 0;
+      transform: none;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "1815306",
+  "name": "train-style",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "606268",
+      "name": "facebook",
+      "font_class": "facebookfacebook51",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6626176",
+      "name": "Instagram",
+      "font_class": "Instagram",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "10031201",
+      "name": "推特",
+      "font_class": "tuite",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "490075",
+      "name": "email",
+      "font_class": "email",
+      "unicode": "eb34",
+      "unicode_decimal": 60212
+    }
+  ]
+}
